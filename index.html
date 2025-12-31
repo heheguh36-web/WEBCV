@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="id">
+<head>
+     <meta charset="utf-8">
+	 <title> WELCOME </title>
+	 <link href="css.css" rel="stylesheet">
+</head>
+
+<body class="home-page page-home">	
+
+<h1>Curicculum Vitae </h1>
+<h2>Mahasiswa Universitas Nusa Bangsa</h2>
+<p>Kami adalah mahasiswa Universitas Nusa Bangsa yang berorientasi pada pengembangan diri baik secara akademik maupun non-akademik. Aktif dalam kegiatan organisasi kemahasiswaan yang melatih kemampuan berpikir kritis, komunikasi, dan manajemen kegiatan. Dengan sikap disiplin, bertanggung jawab, dan kemauan belajar yang tinggi, kami siap mengembangkan potensi diri serta berkontribusi secara profesional di lingkungan kerja maupun organisasi.</p>
+
+<div class="home-layout">
+
+<div class="left-side">
+<div class="side-photo">
+<img class="side-img" src="UNB.jpg">
+<p>Universitas Nusa Bangsa</p>
+</div>
+
+<div class="side-photo">
+<img class="side-img" src="fqh.JPEG">
+<p>Muhamad Fiqih Gumilang</p>
+<p>Prodi Agribisnis</p>
+<p>41205420123014</p>
+</div>
+</div>
+
+<nav class="menu home-menu">
+  <a class="active"
+  href="tugas.html">Home</a>	
+  <a href="Experience.html">Muhamad Fiqih Gumilang</a>
+  <a href="Contact.html">Eva Apriyani</a>
+  <a href="Yurisa.html">Yurisa</a>
+</nav>
+
+<div class="right-side">
+<div class="side-photo">
+<img class="side-img" src="yurisa.JPEG">
+<p>Yurisa Azhara</p>
+<p>Prodi Agribisnis</p>
+<p>41205420123011</p>
+</div>
+
+<div class="side-photo">
+<img class="side-img" src="Eva.JPEG" alt="profil kanan 2">
+<p>    Eva Apriyani</p>
+<p>Prodi Agribisnis</P>
+<p>41205420123010</p>
+</div>
+</div>
+
+</div>

@@ -1,0 +1,125 @@
+
+body{
+     font-family: Times New Roman;
+	 text-align: left;
+	 background: #f4f6f8;
+	 margin: 0;
+	 padding: 40px;
+	 }
+	h1{
+	 font-size: 36px;
+	 margin-bottom: 10px;
+	 }
+	h2{
+	 font-size: 22px;
+	 margin-bottom: 22px;
+	 }
+	p{
+	 color: #555;
+	 margin-bottom: 20px;
+	 }
+	nav a:hover{
+	 color: #1c6a86
+	 }
+.page-home{
+	background: #1C99E6;
+}
+.page.muhamad{
+	background: #E8C8C3;
+}
+.page.EvaApriyani{
+	background: #E8C383;
+}
+.menu{
+	margin-top: 18px;
+	display: flex;
+	justify-content: flex-start;
+	gap: 12px;
+}
+.menu a{
+	display: inline-block;
+	padding: 10px 16px;
+	border-radius: 999px;
+	background: white;
+	border: 1px solid #d7dee4;
+	text-decoration: none;
+	color: #0f3b4b;
+	font-weight: 700;
+	transition: 0.2s;
+	min-width: auto;
+}
+.menu a.active{
+	min-width: 180px;
+	background: #0f3b4b;
+	color: white;
+	border-color: #0f3b4b;
+}
+	.menu a:hover{
+		transform: translateY(-1px);
+		box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+	}
+	.menu{
+		position : relative;
+		z-index: 10;
+	}
+	.home-page .menu{
+		flex-direction: column;
+		align-items: center;
+	}
+	.home-page .menu a{
+		width: 300px;
+		text-align: center;
+	}
+.home-layout{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+.left-side,
+.right-side{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 180px;
+  flex: 0 0 180px;
+}
+.side-photo{
+	width: 160px;
+	flex: 0 0 160px;
+	text-align= center;
+}
+.home-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 360px;
+  flex: 0 0 360px;
+}
+.side-img{
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.layout-fiqih{
+	display: flex;
+	justify-content: center; 
+	align-items: flex-start;
+	gap: 40px;
+	width: 100%;
+	flex-wrap: nowrap;
+}
+.yurisa	{
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.yurisa-img{
+  width: 150px;
+  border-radius: 8px;
+}
